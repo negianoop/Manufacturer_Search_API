@@ -73,8 +73,8 @@ src/
 
 4. **Test the API Endpoints**:
     - Make a POST request either with curl or postman at `http://localhost:8080/suppliers` 
-    - with the following format 
-    - ```bash
+     with the following format 
+     ```bash
         {
             "companyName": "DEF Manufacturing",
             "website": "https://abc-manufacturing.com",
@@ -84,7 +84,7 @@ src/
         }
         ```
     - Make a GET request at `http://localhost:8080/suppliers`. 
-    - for example --
-    - ```bash 
+      for example --
+      ```bash 
          http://localhost:8080/suppliers?location=New%20York&natureOfBusiness=LARGE_SCALE&manufacturingProcesses=COATING, _3DPRINTING&limit=10
       ```
